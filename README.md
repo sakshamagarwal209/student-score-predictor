@@ -41,7 +41,7 @@ The goal is to understand ML fundamentals while building something practical and
 ---
 
 ## 📂 Project Structure
-
+```
 student-score-predictor/
 ├── app.py # Streamlit web application
 ├── train.py # Model training script
@@ -56,15 +56,15 @@ student-score-predictor/
 │
 └── model/
 └── model.pkl # Trained ML model
-
+```
 ---
 
 ## ▶️ How to Run Locally
-
+```
 pip install -r requirements.txt
 python train.py
 streamlit run app.py
-
+```
 ## 🧪 Model Testing
 
 The test_predictions.py script validates the trained model by comparing actual scores with predicted values from the dataset.
